@@ -56,7 +56,10 @@ module.exports = defineConfig({
   },
 
   e2e: {
-   
+    chromeWebSecurity: false,
+    experimentalOriginDependencies: true,
+    baseUrl: "https://nightly-www.savvasrealizedev.com/community",
+    defaultCommandTimeout: 15000,
     specPattern: "**/*.feature",
     supportFile: false,
     setupNodeEvents,

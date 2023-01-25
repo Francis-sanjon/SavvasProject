@@ -1,0 +1,1142 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "help-icon;verify-the-help-icon-updated-with-latest-styles-in-dashboard-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify the Help Icon Updated with latest styles in Dashboard Page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Teacher launche the Realize login Page",
+            "result": {
+              "duration": 10844000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "Teacher enters valid username and password",
+            "result": {
+              "duration": 16186000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Teacher Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Verify the Help Icon displayed or not",
+            "result": {
+              "duration": 9458000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "Teacher clicks Help Icon",
+            "result": {
+              "duration": 559000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Teacher Verify the popup list displayed or not",
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "Teacher enters some value in the inputbox",
+            "result": {
+              "duration": 3295000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "Teacher hits enter",
+            "result": {
+              "duration": 1358000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Teacher Verify the result",
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "User close the popup",
+            "result": {
+              "duration": 1191000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "Teacher clicks Help Icon",
+            "result": {
+              "duration": 528000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "Teacher clicks Help for this Page",
+            "result": {
+              "duration": 586000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Teacher Verify the result for help for this page option",
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 17,
+            "name": "User close the popup",
+            "result": {
+              "duration": 668000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 18,
+            "name": "Teacher clicks Help Icon",
+            "result": {
+              "duration": 688000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Teacher Verify the url for Program Training",
+            "result": {
+              "duration": 29959000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 21,
+            "name": "Teacher clicks Help Icon",
+            "result": {
+              "duration": 6498000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Teacher Verify the url for Technical Support",
+            "result": {
+              "duration": 20000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 24,
+            "name": "Teacher clicks Help Icon",
+            "result": {
+              "duration": 5955000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Teacher Verify the url for Contact a Program Specialist",
+            "result": {
+              "duration": 10985000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "help-icon",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Help Icon",
+    "uri": "cypress\\e2e\\Features\\TC-01_tc120RLZ32851.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "changing-language;verify-class-quick-links-in-realize-dashboard-for-spanish-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify class quick links in Realize Dashboard for spanish user",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Teacher launche the Realize login Page",
+            "result": {
+              "duration": 9473000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "Teacher enters valid username and password",
+            "result": {
+              "duration": 13658000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Teacher Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "Teacher clicks profile Icon",
+            "result": {
+              "duration": 7413000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "Teacher clicks Setting option",
+            "result": {
+              "duration": 25612000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "Teacher Selects spanish language",
+            "result": {
+              "duration": 1174000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "clicks Save Button",
+            "result": {
+              "duration": 13210000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "Teacher clicks savvas Realize Icon to go Dashboard page",
+            "result": {
+              "duration": 3829000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Teacher Verify the below data",
+            "result": {
+              "duration": 10098000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "Teacher clicks profile Icon",
+            "result": {
+              "duration": 1934000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 16,
+            "name": "Teacher clicks Setting",
+            "result": {
+              "duration": 4564000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 17,
+            "name": "Teacher Selects English language",
+            "result": {
+              "duration": 6557000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 18,
+            "name": "clicks Save Button",
+            "result": {
+              "duration": 15600000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "changing-language",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Changing language",
+    "uri": "cypress\\e2e\\Features\\TC-02_tc020RLZ33166.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-firstname;verify-the-username-displayed-on-the-profile-shows-the-first-name-without-elipsis-when-it-less-than-x-char-or-pixel-for-student-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify the UserName displayed on the profile shows the first name without elipsis when it less than X char or pixel for Student user",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Teacher launche the Realize login Page",
+            "result": {
+              "duration": 20931000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "Teacher enters valid username and password-3",
+            "result": {
+              "duration": 13098000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Teacher Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User Verify profile is visible or not",
+            "result": {
+              "duration": 7982000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "User clicks profile Icon",
+            "result": {
+              "duration": 419000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks Setting Icon",
+            "result": {
+              "duration": 15760000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User Verify the first name displayed in the profile Icon",
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks Home Button",
+            "result": {
+              "duration": 8697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "user clicks Browse Button",
+            "result": {
+              "duration": 6023000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "User clicks Classes Menu",
+            "result": {
+              "duration": 14288000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "User clicks Grades Menu",
+            "result": {
+              "duration": 3707000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-firstname",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify FirstName",
+    "uri": "cypress\\e2e\\Features\\TC-03_tc110RLZ34301.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-clicking-on-the-rectangular-class-card-title-navigates-to-the-assignment-listing-page-of-that-class-for-teacher-user;verify-clicking-on-the-rectangular-class-card-title-navigates-to-the-assignment-listing-page-of-that-class-for-teacher-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify clicking on the Rectangular class card title navigates to the assignment listing page of that class for Teacher user",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launche the Realize login Page",
+            "result": {
+              "duration": 7336000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters valid username and password4",
+            "result": {
+              "duration": 12212000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User Mouse hover on the class card title",
+            "result": {
+              "duration": 6848000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User Verify class card image clickable or not",
+            "result": {
+              "duration": 3195000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks class card header",
+            "result": {
+              "duration": 38887000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User verifies which nagating to assignment listing page",
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-clicking-on-the-rectangular-class-card-title-navigates-to-the-assignment-listing-page-of-that-class-for-teacher-user",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify clicking on the Rectangular class card title navigates to the assignment listing page of that class for Teacher user",
+    "uri": "cypress\\e2e\\Features\\TC-04_tc010RLZ36955.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-square-class-card-for-student-user(users-with-4-or-more-classes);verify-square-class-card-for-student-user(users-with-4-or-more-classes)",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify square class card for Student user(Users with 4 or more classes)",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launche the Realize login Page",
+            "result": {
+              "duration": 5656000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters valid username and password5",
+            "result": {
+              "duration": 13926000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User verifies Class name should be displayed on each of my cards",
+            "result": {
+              "duration": 8690000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User verifies Background each of myCards",
+            "result": {
+              "duration": 247000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "class picture set on each class card",
+            "result": {
+              "duration": 1519000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "User Click the \"Pen and Paper\" icon",
+            "result": {
+              "duration": 30571000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User verifies which navigating to Assignment listing page or not",
+            "result": {
+              "duration": 7403000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "User navigating to home page",
+            "result": {
+              "duration": 2282000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 16,
+            "name": "User Click the \"People\" icon",
+            "result": {
+              "duration": 9643000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User verifies which navigating to  Class Discussions page for that class or not",
+            "result": {
+              "duration": 4065000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 18,
+            "name": "User navigating to home page",
+            "result": {
+              "duration": 644000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 19,
+            "name": "User Click the \"Graph\" icon",
+            "result": {
+              "duration": 8870000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User verifies that link navigated to the Class Results by Assignment page for that class or not",
+            "result": {
+              "duration": 8166000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 21,
+            "name": "User Click the \"Book\" icon Dropdown",
+            "result": {
+              "duration": 1280000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User verifies that display the programs associated with the class",
+            "result": {
+              "duration": 1215000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-square-class-card-for-student-user(users-with-4-or-more-classes)",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify square class card for Student user(Users with 4 or more classes)",
+    "uri": "cypress\\e2e\\Features\\TC-05_tc060RLZ33863.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-rectangular-class-card-for-teacher-user(users-with-3-or-less-than-3-classes);verify-rectangular-class-card-for-teacher-user(users-with-3-or-less-than-3-classes)",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launche the Realize login Page",
+            "result": {
+              "duration": 24675000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logins Savvas as a Teacher with valid username and password6",
+            "result": {
+              "duration": 13243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User verifies Class name should be displayed on each of my cards",
+            "result": {
+              "duration": 8619000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User verifies Background each of myCards",
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "class picture set on each class card",
+            "result": {
+              "duration": 1170000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User verifies rectangular class cards is displayed one in a row or not",
+            "result": {
+              "duration": 333000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User verifies \"Class avatar\" with equivalent icon and label,Assignment,Student \u0026 Groups,Graph,Programs",
+            "result": {
+              "duration": 624000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "User Click the \"Pen and Paper\" icon",
+            "result": {
+              "duration": 43814000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User verifies that link navigated to the Class Results by Assignment page for that class or not",
+            "result": {
+              "duration": 9388000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "User navigating to home page",
+            "result": {
+              "duration": 4754000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 16,
+            "name": "User Click the \"People\" icon",
+            "result": {
+              "duration": 6476000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User verifies that link navigated to the Student \u0026 Group page for that class or not",
+            "result": {
+              "duration": 3286000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 18,
+            "name": "User navigating to home page",
+            "result": {
+              "duration": 517000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 19,
+            "name": "User Click the \"Graph\" icon",
+            "result": {
+              "duration": 6753000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User verifies that link navigated to the Class Results by Data page for that class or not",
+            "result": {
+              "duration": 7098000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 21,
+            "name": "User navigating to home page",
+            "result": {
+              "duration": 821000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User verifies Dropdown that contains the programs associated with that class should be expanded or not",
+            "result": {
+              "duration": 819000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-rectangular-class-card-for-teacher-user(users-with-3-or-less-than-3-classes)",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)",
+    "uri": "cypress\\e2e\\Features\\TC-06_tc010RLZ33070.feature"
+  }
+]
