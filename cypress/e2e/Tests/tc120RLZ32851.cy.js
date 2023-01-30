@@ -5,8 +5,17 @@ import LoginPage from '../PageObject/LoginPage.spec';
 const home = new Home();
 const bs = new BaseClass();
 const loginPage = new LoginPage();
+before('Before', () => {
+    cy.log('this is before block')
+    cy.task('readXlsx', { file: 'cypress/fixtures/excelData.xlsx', sheet: "Sheet1" }).then((rows) => {
+      let rowsLength = rows.length;
+     
+
+    })
+  })
 
 describe('', () => {
+    
     Given('Teacher launche the Realize login Page', () => {
         cy.visit('/')
         Cypress.on('uncaught:exception', (err, runnable) => {
@@ -15,6 +24,7 @@ describe('', () => {
     })
     When('Teacher enters valid username and password', () => {
         bs.savvasLogin('MSuite49win10chrome_teacher04', 'testing123$')
+       
     })
     Then('Teacher Verify the Realize Dashboard Page', () => {
 

@@ -6,9 +6,9 @@ import ProfilePage from '../PageObject/ProfilePage.spec'
 const bs = new BaseClass();
 const home = new Home();
 const profilePage = new ProfilePage()
-
+var str;
 describe('', () => {
-    let str;
+
     // cy.on('uncaught:exception', (err, runnable) => {
     // handling of exception
     //});
@@ -22,31 +22,34 @@ describe('', () => {
         home.getProfileIcon().click()
     })
     And('User clicks Setting Icon', () => {
-        home.getSetting().click()
+        cy.get('.header__navbar_student').shadow().find('[class="avatar-dropdown hydrated"]').shadow().find('[data-id="settings"]').click()
+        //home.getSetting().click()
     })
     Then('User Verify the first name displayed in the profile Icon', () => {
-        /*  var element = document.getElementById("studentName");
+        
+       
 
-        // Get the text from the element
-        var text = element.innerText;
-
-        // Log the text to the console
-        cy.log(text);
-      
               cy.get('#studentName').then(($first) => {
-                  const firstValue = $first.val()
-                  cy.get('.header__navbar_student').shadow().find('.profile-container-wrapper').then(($second) => {
-                      const secondValue = $second.val()
+                  const Value = $first.text()
+                  let firstValue = Value.split(" ")[0];
+                  cy.get('.header__navbar_student').shadow().find('[class="platform__navbar--profileUtility hydrated"]').shadow().find('[class="utility__item--userName"]').then(($second) => {
+                      const secondValue = $second.text()
+                      
                       expect(firstValue).to.eq(secondValue)
+                      cy.log(firstValue)
+                      cy.log(secondValue)
+                      str=firstValue.toString();
+                     // expect(firstValue).to.eq(secondValue)
                   })
-              })*/
-
+              })
+       
+/*
         const str = cy.get('#studentName').then((data) => {
             let firstLastName = data.text().toString()
             let firstName = firstLastName.split(" ")[0];
             cy.log(firstName)
         })
-
+*/
     })
     And('user clicks Home Button', () => {
         profilePage.getHomeMenu().click()

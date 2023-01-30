@@ -12,7 +12,7 @@ describe('Suite2', () => {
     // handling of exception
     //});
     And('Teacher clicks profile Icon', () => {
-        cy.get('.header__navbar').shadow().find('.profile-container-wrapper')
+        cy.get('.header__navbar').shadow().find('.profile-container-wrapper').click()
         //home.getProfileIcon().click()
     })
     And('Teacher clicks Setting option', () => {
@@ -31,7 +31,7 @@ describe('Suite2', () => {
                 cy.wait(10000)
                 profilePage.getRealizeImg().click()
                 cy.get('.header__navbar').shadow().find('.profile-container-wrapper')
-               // home.getprofileIcon().click()
+                // home.getprofileIcon().click()
             }
 
         })

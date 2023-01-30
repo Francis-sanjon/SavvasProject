@@ -43,6 +43,7 @@ describe('', () => {
   })
   And('User Click the "Pen and Paper" icon', () => {
     profilePage.getAssignments().click()
+    cy.wait(5000)
   })
   Then('User verifies which navigating to Assignment listing page or not', () => {
     classesPage.getAssignmentPage().should('be.visible')

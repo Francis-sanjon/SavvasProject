@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="98.485" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2023-01-24T17:22:18" tests="0" file="cypress\e2e\Features\TC-06_tc010RLZ33070.feature" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="136.599" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-26T05:52:05" tests="0" file="cypress\e2e\Features\TC-06_tc010RLZ33070.feature" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)" timestamp="2023-01-24T17:22:18" tests="1" time="98.260" failures="0">
-    <testcase name="Verify rectangular class card for teacher user(Users with 3 or less than 3 classes) Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)" time="89.264" classname="Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)">
+  <testsuite name="Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)" timestamp="2023-01-26T05:52:06" tests="1" time="136.351" failures="0">
+    <testcase name="Verify rectangular class card for teacher user(Users with 3 or less than 3 classes) Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)" time="122.055" classname="Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)">
     </testcase>
   </testsuite>
 </testsuites>

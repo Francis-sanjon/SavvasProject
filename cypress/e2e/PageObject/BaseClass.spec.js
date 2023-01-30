@@ -5,11 +5,7 @@ class BaseClass {
         cy.get('#password').type(password)
         cy.get('#signInBtn').click()
     }
-    orgins() {
-        cy.origin('https://nightly-www.savvasrealizedev.com', () => {
-            return cy.url().should('include', 'dashboard');
-        })
-    }
+    
     windowHandle(Locator) {
         cy.window().then(win => {
             const stub = cy.stub(win, 'open').as('windowopen')
@@ -24,25 +20,29 @@ class BaseClass {
         })
     }
     split() {
-        cy.get('#studentName').then((data) => {
-            let firstLastName = data.text().toString()
-            let firstName = firstLastName.split(" ")[0];
-            return firstName;
+         var element = document.getElementById('#studentName');
 
-        })
-        return firstName;
+        // Get the text from the element
+        //var text = element.innerText;
+        var text = element.textContent;
+
+        // Log the text to the console
+       return text;
     }
 
-    
-   async msg() {
-        let firstName = await cy.get('#studentName').then((data) => {
-            let firstLastName = data.text().toString()
+     msg() {
+        return new Promise((resolve, reject) => {
+          cy.get('#studentName').then((data) => {
+            let firstLastName = data.text().toString();
             let firstName = firstLastName.split(" ")[0];
-            return firstName;
+            let firstNameString = JSON.stringify(firstName);
+            resolve(firstNameString);
+          });
         });
-        return firstName;
-    
-    }
+      }
+      
+
+  
     
         resetLanguage() {
             let condition = '';

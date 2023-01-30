@@ -30,10 +30,10 @@ class Home {
     return cy.get('.header__navbar').shadow().find('[class="help-item-a"]').eq(3)
   }
   getProfileIcon() {
-    return cy.get('.header__navbar_student').shadow().find('.profile-container-wrapper')
+    return cy.get('.header__navbar_student').shadow().find('[class="profile-container"]')
     }
   getSetting() {
-    return cy.get('.header__navbar_student').shadow().find('[class="avatar-dropdown hydrated"]').shadow().find('[data-id="settings"]')
+    return cy.get('.header__navbar').shadow().find('[class="avatar-dropdown hydrated"]').shadow().find('[data-id="settings"]')
   }
   getClassCardTitle(){
     return  cy.get('.classInfiniteScroll').find('[class="class__title"]')
