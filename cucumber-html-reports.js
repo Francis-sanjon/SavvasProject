@@ -7,7 +7,7 @@ report.generate({
       "name": "chrome",
       "version": "108"
     },
-    "device": "Local Test Machine",
+    "device": "Local Test Machine" ,
     "platform": {
       "name": "Windows",
       "version": "10"

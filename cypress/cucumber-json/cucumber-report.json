@@ -14,7 +14,7 @@
             "line": 4,
             "name": "Teacher launche the Realize login Page",
             "result": {
-              "duration": 10844000000,
+              "duration": 6650000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 5,
             "name": "Teacher enters valid username and password",
             "result": {
-              "duration": 16186000000,
+              "duration": 13939000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 6,
             "name": "Teacher Verify the Realize Dashboard Page",
             "result": {
-              "duration": 44000000,
+              "duration": 58000000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,7 @@
             "line": 7,
             "name": "Verify the Help Icon displayed or not",
             "result": {
-              "duration": 9458000000,
+              "duration": 7414000000,
               "status": "passed"
             },
             "match": {
@@ -62,7 +62,7 @@
             "line": 8,
             "name": "Teacher clicks Help Icon",
             "result": {
-              "duration": 559000000,
+              "duration": 624000000,
               "status": "passed"
             },
             "match": {
@@ -74,7 +74,7 @@
             "line": 9,
             "name": "Teacher Verify the popup list displayed or not",
             "result": {
-              "duration": 197000000,
+              "duration": 266000000,
               "status": "passed"
             },
             "match": {
@@ -86,7 +86,7 @@
             "line": 10,
             "name": "Teacher enters some value in the inputbox",
             "result": {
-              "duration": 3295000000,
+              "duration": 3720000000,
               "status": "passed"
             },
             "match": {
@@ -98,7 +98,7 @@
             "line": 11,
             "name": "Teacher hits enter",
             "result": {
-              "duration": 1358000000,
+              "duration": 1140000000,
               "status": "passed"
             },
             "match": {
@@ -110,7 +110,7 @@
             "line": 12,
             "name": "Teacher Verify the result",
             "result": {
-              "duration": 195000000,
+              "duration": 171000000,
               "status": "passed"
             },
             "match": {
@@ -122,7 +122,7 @@
             "line": 13,
             "name": "User close the popup",
             "result": {
-              "duration": 1191000000,
+              "duration": 1777000000,
               "status": "passed"
             },
             "match": {
@@ -134,7 +134,7 @@
             "line": 14,
             "name": "Teacher clicks Help Icon",
             "result": {
-              "duration": 528000000,
+              "duration": 570000000,
               "status": "passed"
             },
             "match": {
@@ -146,7 +146,7 @@
             "line": 15,
             "name": "Teacher clicks Help for this Page",
             "result": {
-              "duration": 586000000,
+              "duration": 495000000,
               "status": "passed"
             },
             "match": {
@@ -158,7 +158,7 @@
             "line": 16,
             "name": "Teacher Verify the result for help for this page option",
             "result": {
-              "duration": 143000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "match": {
@@ -170,7 +170,7 @@
             "line": 17,
             "name": "User close the popup",
             "result": {
-              "duration": 668000000,
+              "duration": 596000000,
               "status": "passed"
             },
             "match": {
@@ -182,7 +182,19 @@
             "line": 18,
             "name": "Teacher clicks Help Icon",
             "result": {
-              "duration": 688000000,
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 19,
+            "name": "Teacher clicks Program Training option",
+            "result": {
+              "duration": 10502000000,
               "status": "passed"
             },
             "match": {
@@ -194,7 +206,7 @@
             "line": 20,
             "name": "Teacher Verify the url for Program Training",
             "result": {
-              "duration": 29959000000,
+              "duration": 180000000,
               "status": "passed"
             },
             "match": {
@@ -204,21 +216,9 @@
           {
             "keyword": "And ",
             "line": 21,
-            "name": "Teacher clicks Help Icon",
+            "name": "User navigating to home page",
             "result": {
-              "duration": 6498000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "line": 23,
-            "name": "Teacher Verify the url for Technical Support",
-            "result": {
-              "duration": 20000000000,
+              "duration": 4536000000,
               "status": "passed"
             },
             "match": {
@@ -227,10 +227,22 @@
           },
           {
             "keyword": "And ",
-            "line": 24,
+            "line": 22,
             "name": "Teacher clicks Help Icon",
             "result": {
-              "duration": 5955000000,
+              "duration": 4191000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 23,
+            "name": "Teacher clicks Technical Support option",
+            "result": {
+              "duration": 15056000000,
               "status": "passed"
             },
             "match": {
@@ -239,10 +251,58 @@
           },
           {
             "keyword": "Then ",
+            "line": 24,
+            "name": "Teacher Verify the url for Technical Support",
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 25,
+            "name": "User navigating to home page",
+            "result": {
+              "duration": 4868000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
             "line": 26,
+            "name": "Teacher clicks Help Icon",
+            "result": {
+              "duration": 5176000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 27,
+            "name": "Teacher clicks Contact a Program Specialist option",
+            "result": {
+              "duration": 5536000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 28,
             "name": "Teacher Verify the url for Contact a Program Specialist",
             "result": {
-              "duration": 10985000000,
+              "duration": 283000000,
               "status": "passed"
             },
             "match": {
@@ -274,7 +334,7 @@
             "line": 4,
             "name": "Teacher launche the Realize login Page",
             "result": {
-              "duration": 9473000000,
+              "duration": 6483000000,
               "status": "passed"
             },
             "match": {
@@ -286,7 +346,7 @@
             "line": 5,
             "name": "Teacher enters valid username and password",
             "result": {
-              "duration": 13658000000,
+              "duration": 13501000000,
               "status": "passed"
             },
             "match": {
@@ -295,10 +355,22 @@
           },
           {
             "keyword": "Then ",
-            "line": 7,
+            "line": 6,
             "name": "Teacher Verify the Realize Dashboard Page",
             "result": {
-              "duration": 48000000,
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Teacher clicks profile Icon",
+            "result": {
+              "duration": 7526000000,
               "status": "passed"
             },
             "match": {
@@ -308,9 +380,9 @@
           {
             "keyword": "And ",
             "line": 8,
-            "name": "Teacher clicks profile Icon",
+            "name": "Teacher clicks Setting option",
             "result": {
-              "duration": 7413000000,
+              "duration": 30981000000,
               "status": "passed"
             },
             "match": {
@@ -318,11 +390,11 @@
             }
           },
           {
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 9,
-            "name": "Teacher clicks Setting option",
+            "name": "Verify Setting page",
             "result": {
-              "duration": 25612000000,
+              "duration": 101000000,
               "status": "passed"
             },
             "match": {
@@ -331,10 +403,22 @@
           },
           {
             "keyword": "When ",
-            "line": 11,
+            "line": 10,
             "name": "Teacher Selects spanish language",
             "result": {
-              "duration": 1174000000,
+              "duration": 2043000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "clicks Save Button",
+            "result": {
+              "duration": 14320000000,
               "status": "passed"
             },
             "match": {
@@ -344,21 +428,9 @@
           {
             "keyword": "And ",
             "line": 12,
-            "name": "clicks Save Button",
-            "result": {
-              "duration": 13210000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "And ",
-            "line": 13,
             "name": "Teacher clicks savvas Realize Icon to go Dashboard page",
             "result": {
-              "duration": 3829000000,
+              "duration": 3873000000,
               "status": "passed"
             },
             "match": {
@@ -367,10 +439,22 @@
           },
           {
             "keyword": "Then ",
-            "line": 14,
+            "line": 13,
             "name": "Teacher Verify the below data",
             "result": {
-              "duration": 10098000000,
+              "duration": 13173000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "Teacher clicks profile Icon",
+            "result": {
+              "duration": 2552000000,
               "status": "passed"
             },
             "match": {
@@ -380,21 +464,9 @@
           {
             "keyword": "And ",
             "line": 15,
-            "name": "Teacher clicks profile Icon",
-            "result": {
-              "duration": 1934000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "And ",
-            "line": 16,
             "name": "Teacher clicks Setting",
             "result": {
-              "duration": 4564000000,
+              "duration": 7086000000,
               "status": "passed"
             },
             "match": {
@@ -403,10 +475,10 @@
           },
           {
             "keyword": "When ",
-            "line": 17,
+            "line": 16,
             "name": "Teacher Selects English language",
             "result": {
-              "duration": 6557000000,
+              "duration": 5323000000,
               "status": "passed"
             },
             "match": {
@@ -415,10 +487,10 @@
           },
           {
             "keyword": "And ",
-            "line": 18,
+            "line": 17,
             "name": "clicks Save Button",
             "result": {
-              "duration": 15600000000,
+              "duration": 11338000000,
               "status": "passed"
             },
             "match": {
@@ -450,7 +522,7 @@
             "line": 4,
             "name": "Teacher launche the Realize login Page",
             "result": {
-              "duration": 20931000000,
+              "duration": 4978000000,
               "status": "passed"
             },
             "match": {
@@ -462,7 +534,7 @@
             "line": 5,
             "name": "Teacher enters valid username and password-3",
             "result": {
-              "duration": 13098000000,
+              "duration": 11678000000,
               "status": "passed"
             },
             "match": {
@@ -474,7 +546,7 @@
             "line": 6,
             "name": "Teacher Verify the Realize Dashboard Page",
             "result": {
-              "duration": 93000000,
+              "duration": 70000000,
               "status": "passed"
             },
             "match": {
@@ -486,7 +558,7 @@
             "line": 7,
             "name": "User Verify profile is visible or not",
             "result": {
-              "duration": 7982000000,
+              "duration": 5974000000,
               "status": "passed"
             },
             "match": {
@@ -498,7 +570,7 @@
             "line": 8,
             "name": "User clicks profile Icon",
             "result": {
-              "duration": 419000000,
+              "duration": 1128000000,
               "status": "passed"
             },
             "match": {
@@ -510,7 +582,7 @@
             "line": 9,
             "name": "User clicks Setting Icon",
             "result": {
-              "duration": 15760000000,
+              "duration": 47189000000,
               "status": "passed"
             },
             "match": {
@@ -522,7 +594,7 @@
             "line": 10,
             "name": "User Verify the first name displayed in the profile Icon",
             "result": {
-              "duration": 30000000,
+              "duration": 261000000,
               "status": "passed"
             },
             "match": {
@@ -534,7 +606,7 @@
             "line": 11,
             "name": "user clicks Home Button",
             "result": {
-              "duration": 8697000000,
+              "duration": 546000000,
               "status": "passed"
             },
             "match": {
@@ -546,7 +618,7 @@
             "line": 12,
             "name": "user clicks Browse Button",
             "result": {
-              "duration": 6023000000,
+              "duration": 13416000000,
               "status": "passed"
             },
             "match": {
@@ -558,7 +630,7 @@
             "line": 13,
             "name": "User clicks Classes Menu",
             "result": {
-              "duration": 14288000000,
+              "duration": 7093000000,
               "status": "passed"
             },
             "match": {
@@ -570,7 +642,7 @@
             "line": 14,
             "name": "User clicks Grades Menu",
             "result": {
-              "duration": 3707000000,
+              "duration": 3101000000,
               "status": "passed"
             },
             "match": {
@@ -602,7 +674,7 @@
             "line": 4,
             "name": "User launche the Realize login Page",
             "result": {
-              "duration": 7336000000,
+              "duration": 5867000000,
               "status": "passed"
             },
             "match": {
@@ -614,7 +686,7 @@
             "line": 5,
             "name": "User enters valid username and password4",
             "result": {
-              "duration": 12212000000,
+              "duration": 11295000000,
               "status": "passed"
             },
             "match": {
@@ -626,7 +698,7 @@
             "line": 6,
             "name": "User Verify the Realize Dashboard Page",
             "result": {
-              "duration": 70000000,
+              "duration": 44000000,
               "status": "passed"
             },
             "match": {
@@ -638,7 +710,31 @@
             "line": 7,
             "name": "User Mouse hover on the class card title",
             "result": {
-              "duration": 6848000000,
+              "duration": 6631000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User Hover on the colorbar area",
+            "result": {
+              "duration": 464000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify cursor turns into hand symbol",
+            "result": {
+              "duration": 464000000,
               "status": "passed"
             },
             "match": {
@@ -650,7 +746,7 @@
             "line": 11,
             "name": "User Verify class card image clickable or not",
             "result": {
-              "duration": 3195000000,
+              "duration": 4087000000,
               "status": "passed"
             },
             "match": {
@@ -662,7 +758,7 @@
             "line": 12,
             "name": "User clicks class card header",
             "result": {
-              "duration": 38887000000,
+              "duration": 25859000000,
               "status": "passed"
             },
             "match": {
@@ -674,7 +770,7 @@
             "line": 13,
             "name": "User verifies which nagating to assignment listing page",
             "result": {
-              "duration": 296000000,
+              "duration": 354000000,
               "status": "passed"
             },
             "match": {
@@ -706,7 +802,7 @@
             "line": 5,
             "name": "User launche the Realize login Page",
             "result": {
-              "duration": 5656000000,
+              "duration": 5170000000,
               "status": "passed"
             },
             "match": {
@@ -718,7 +814,7 @@
             "line": 6,
             "name": "User enters valid username and password5",
             "result": {
-              "duration": 13926000000,
+              "duration": 11821000000,
               "status": "passed"
             },
             "match": {
@@ -730,7 +826,7 @@
             "line": 7,
             "name": "User Verify the Realize Dashboard Page",
             "result": {
-              "duration": 68000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "match": {
@@ -742,7 +838,7 @@
             "line": 8,
             "name": "User verifies Class name should be displayed on each of my cards",
             "result": {
-              "duration": 8690000000,
+              "duration": 7157000000,
               "status": "passed"
             },
             "match": {
@@ -754,7 +850,7 @@
             "line": 9,
             "name": "User verifies Background each of myCards",
             "result": {
-              "duration": 247000000,
+              "duration": 204000000,
               "status": "passed"
             },
             "match": {
@@ -766,7 +862,7 @@
             "line": 10,
             "name": "class picture set on each class card",
             "result": {
-              "duration": 1519000000,
+              "duration": 1418000000,
               "status": "passed"
             },
             "match": {
@@ -778,7 +874,7 @@
             "line": 13,
             "name": "User Click the \"Pen and Paper\" icon",
             "result": {
-              "duration": 30571000000,
+              "duration": 47310000000,
               "status": "passed"
             },
             "match": {
@@ -790,7 +886,7 @@
             "line": 14,
             "name": "User verifies which navigating to Assignment listing page or not",
             "result": {
-              "duration": 7403000000,
+              "duration": 432000000,
               "status": "passed"
             },
             "match": {
@@ -802,7 +898,7 @@
             "line": 15,
             "name": "User navigating to home page",
             "result": {
-              "duration": 2282000000,
+              "duration": 3372000000,
               "status": "passed"
             },
             "match": {
@@ -814,7 +910,7 @@
             "line": 16,
             "name": "User Click the \"People\" icon",
             "result": {
-              "duration": 9643000000,
+              "duration": 6283000000,
               "status": "passed"
             },
             "match": {
@@ -824,9 +920,9 @@
           {
             "keyword": "Then ",
             "line": 17,
-            "name": "User verifies which navigating to  Class Discussions page for that class or not",
+            "name": "User verifies which navigating to Class Discussions page for that class or not",
             "result": {
-              "duration": 4065000000,
+              "duration": 2831000000,
               "status": "passed"
             },
             "match": {
@@ -838,7 +934,7 @@
             "line": 18,
             "name": "User navigating to home page",
             "result": {
-              "duration": 644000000,
+              "duration": 317000000,
               "status": "passed"
             },
             "match": {
@@ -850,7 +946,7 @@
             "line": 19,
             "name": "User Click the \"Graph\" icon",
             "result": {
-              "duration": 8870000000,
+              "duration": 10934000000,
               "status": "passed"
             },
             "match": {
@@ -862,7 +958,7 @@
             "line": 20,
             "name": "User verifies that link navigated to the Class Results by Assignment page for that class or not",
             "result": {
-              "duration": 8166000000,
+              "duration": 6337000000,
               "status": "passed"
             },
             "match": {
@@ -872,9 +968,21 @@
           {
             "keyword": "And ",
             "line": 21,
+            "name": "User navigating to home page",
+            "result": {
+              "duration": 593000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 22,
             "name": "User Click the \"Book\" icon Dropdown",
             "result": {
-              "duration": 1280000000,
+              "duration": 3994000000,
               "status": "passed"
             },
             "match": {
@@ -883,10 +991,10 @@
           },
           {
             "keyword": "Then ",
-            "line": 22,
+            "line": 23,
             "name": "User verifies that display the programs associated with the class",
             "result": {
-              "duration": 1215000000,
+              "duration": 25597000000,
               "status": "passed"
             },
             "match": {
@@ -918,7 +1026,7 @@
             "line": 5,
             "name": "User launche the Realize login Page",
             "result": {
-              "duration": 24675000000,
+              "duration": 3998000000,
               "status": "passed"
             },
             "match": {
@@ -930,7 +1038,7 @@
             "line": 6,
             "name": "User logins Savvas as a Teacher with valid username and password6",
             "result": {
-              "duration": 13243000000,
+              "duration": 10747000000,
               "status": "passed"
             },
             "match": {
@@ -942,7 +1050,7 @@
             "line": 7,
             "name": "User Verify the Realize Dashboard Page",
             "result": {
-              "duration": 91000000,
+              "duration": 57000000,
               "status": "passed"
             },
             "match": {
@@ -954,7 +1062,7 @@
             "line": 8,
             "name": "User verifies Class name should be displayed on each of my cards",
             "result": {
-              "duration": 8619000000,
+              "duration": 6634000000,
               "status": "passed"
             },
             "match": {
@@ -966,7 +1074,7 @@
             "line": 9,
             "name": "User verifies Background each of myCards",
             "result": {
-              "duration": 258000000,
+              "duration": 356000000,
               "status": "passed"
             },
             "match": {
@@ -978,7 +1086,7 @@
             "line": 10,
             "name": "class picture set on each class card",
             "result": {
-              "duration": 1170000000,
+              "duration": 1268000000,
               "status": "passed"
             },
             "match": {
@@ -990,7 +1098,7 @@
             "line": 11,
             "name": "User verifies rectangular class cards is displayed one in a row or not",
             "result": {
-              "duration": 333000000,
+              "duration": 3081000000,
               "status": "passed"
             },
             "match": {
@@ -1002,7 +1110,7 @@
             "line": 12,
             "name": "User verifies \"Class avatar\" with equivalent icon and label,Assignment,Student \u0026 Groups,Graph,Programs",
             "result": {
-              "duration": 624000000,
+              "duration": 43383000000,
               "status": "passed"
             },
             "match": {
@@ -1014,7 +1122,7 @@
             "line": 13,
             "name": "User Click the \"Pen and Paper\" icon",
             "result": {
-              "duration": 43814000000,
+              "duration": 8736000000,
               "status": "passed"
             },
             "match": {
@@ -1026,7 +1134,7 @@
             "line": 14,
             "name": "User verifies that link navigated to the Class Results by Assignment page for that class or not",
             "result": {
-              "duration": 9388000000,
+              "duration": 1094000000,
               "status": "passed"
             },
             "match": {
@@ -1038,7 +1146,7 @@
             "line": 15,
             "name": "User navigating to home page",
             "result": {
-              "duration": 4754000000,
+              "duration": 4344000000,
               "status": "passed"
             },
             "match": {
@@ -1050,7 +1158,7 @@
             "line": 16,
             "name": "User Click the \"People\" icon",
             "result": {
-              "duration": 6476000000,
+              "duration": 5879000000,
               "status": "passed"
             },
             "match": {
@@ -1062,7 +1170,7 @@
             "line": 17,
             "name": "User verifies that link navigated to the Student \u0026 Group page for that class or not",
             "result": {
-              "duration": 3286000000,
+              "duration": 3792000000,
               "status": "passed"
             },
             "match": {
@@ -1074,7 +1182,7 @@
             "line": 18,
             "name": "User navigating to home page",
             "result": {
-              "duration": 517000000,
+              "duration": 428000000,
               "status": "passed"
             },
             "match": {
@@ -1086,7 +1194,7 @@
             "line": 19,
             "name": "User Click the \"Graph\" icon",
             "result": {
-              "duration": 6753000000,
+              "duration": 7036000000,
               "status": "passed"
             },
             "match": {
@@ -1098,7 +1206,7 @@
             "line": 20,
             "name": "User verifies that link navigated to the Class Results by Data page for that class or not",
             "result": {
-              "duration": 7098000000,
+              "duration": 7294000000,
               "status": "passed"
             },
             "match": {
@@ -1110,7 +1218,7 @@
             "line": 21,
             "name": "User navigating to home page",
             "result": {
-              "duration": 821000000,
+              "duration": 915000000,
               "status": "passed"
             },
             "match": {
@@ -1122,7 +1230,7 @@
             "line": 23,
             "name": "User verifies Dropdown that contains the programs associated with that class should be expanded or not",
             "result": {
-              "duration": 819000000,
+              "duration": 929000000,
               "status": "passed"
             },
             "match": {
@@ -1138,5 +1246,233 @@
     "line": 1,
     "name": "Verify rectangular class card for teacher user(Users with 3 or less than 3 classes)",
     "uri": "cypress\\e2e\\Features\\TC-06_tc010RLZ33070.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-scroll-bar-is-displaying-for-my-programs-section-if-the-screen-viewport-is-small-(max-is-5-programs-but-displaying-only-4-programs)-for-student-user;verify-scroll-bar-is-displaying-for-my-programs-section-if-the-screen-viewport-is-small-(max-is-5-programs-but-displaying-only-4-programs)-for-student-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify scroll bar is displaying for My Programs section if the screen viewport is small (Max is 5 Programs but displaying only 4 programs) for Student user",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launche the Realize login Page",
+            "result": {
+              "duration": 7223000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "User Logins Savvas as Student user",
+            "result": {
+              "duration": 12286000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User Verify if scroll bar is not displayed in My Programs section",
+            "result": {
+              "duration": 8926000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-scroll-bar-is-displaying-for-my-programs-section-if-the-screen-viewport-is-small-(max-is-5-programs-but-displaying-only-4-programs)-for-student-user",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify scroll bar is displaying for My Programs section if the screen viewport is small (Max is 5 Programs but displaying only 4 programs) for Student user",
+    "uri": "cypress\\e2e\\Features\\TC-08_tc110RLZ36527.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-new-toc-page-is-displayed-while-clicking-on-any-program-in-my-programs-section--for--admin--user-when-show.browse.navbar.integration='on;verify-new-toc-page-is-displayed-while-clicking-on-any-program-in-my-programs-section--for--admin--user-when-show.browse.navbar.integration='on",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify new TOC page is displayed while clicking on any program in My Programs section  for  Admin  user when show.browse.navbar.integration='ON",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launche the Realize login Page",
+            "result": {
+              "duration": 5150000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "User Logins Savvas as Admin user",
+            "result": {
+              "duration": 11203000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on any Program in My Program section",
+            "result": {
+              "duration": 11174000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User verifies new TOC page is displayed or not",
+            "result": {
+              "duration": 19195000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-new-toc-page-is-displayed-while-clicking-on-any-program-in-my-programs-section--for--admin--user-when-show.browse.navbar.integration='on",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify new TOC page is displayed while clicking on any program in My Programs section  for  Admin  user when show.browse.navbar.integration='ON",
+    "uri": "cypress\\e2e\\Features\\TC-10_tc040RLZ45727.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-new-class-details-page-is-not-displayed-with-new-ui;verify-new-class-details-page-is-not-displayed-with-new-ui",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify new class details page is not displayed with new UI",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launche the Realize login Page",
+            "result": {
+              "duration": 5443000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "User logins Savvas as a Teacher with valid username and password11",
+            "result": {
+              "duration": 12589000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User Verify the Realize Dashboard Page",
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User Hover on Classes subnav",
+            "result": {
+              "duration": 7589000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "User Click on any classes displayed in class list popup modal",
+            "result": {
+              "duration": 1326000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User verifies new class details page is not displayed",
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-new-class-details-page-is-not-displayed-with-new-ui",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify new class details page is not displayed with new UI",
+    "uri": "cypress\\e2e\\Features\\TC-11_tc040RLZ42665.feature"
   }
 ]
